@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+ <category>
+<pattern>*</pattern>
+<template><random>
+    <li>co?</li>
+    <li>nie rozumiem</li>
+    <li>możesz powtórzyć?</li>
+    <li>nie wiem o co chodzi🙄</li>
+    <li>napisz daj temat😊</li>
+    <li>napisz daj temat😊</li>
+    <li>napisz daj temat😊</li>
+    <li>mow do rzeczy 😒</li>
+</random></template>
+</category>
+
+
+
+<category>
+<pattern>jak tam</pattern>
+<template>A bardzo dobrze mi sie zyje. Nawzywam sie bot Siłownia. Zostałem zaprogramowany tak aby być specem na temat siłowni. Chętnie podzielę się z tobą moją wiedzą. 
+Napisz "Daj temat" a znajde nam temat do rozmowy.</template>
+</category>
+
+<category>
+<pattern>co tam</pattern>
+<template><srai>jak tam</srai></template>
+</category>
+<category>
+<pattern>co slychac</pattern>
+<template><srai>jak tam</srai></template>
+</category>
+<category>
+<pattern>co powiesz</pattern>
+<template><srai>jak tam</srai></template>
+</category>
+<category>
+<pattern>jak leci</pattern>
+<template><srai>jak tam</srai></template>
+</category>
+
+
+
+<category>
+<pattern>Dzien dobry</pattern>
+<template><srai>Czesc</srai></template>
+</category>
+<category>
+<pattern>Witaj</pattern>
+<template><srai>Czesc</srai></template>
+</category>
+<category>
+<pattern>Dobry wieczor</pattern>
+<template><srai>Czesc</srai></template>
+</category>
+<category>
+<pattern>Hej</pattern>
+<template><srai>Czesc</srai></template>
+</category>
+<category>
+<pattern>Hejka</pattern>
+<template><srai>Czesc</srai></template>
+</category>
+<category>
+<pattern>Siema</pattern>
+<template><srai>Czesc</srai></template>
+</category>
+<category>
+<pattern>Siemka</pattern>
+<template><srai>Czesc</srai></template>
+</category>
+<category>
+<pattern>Eluwina</pattern>
+<template><srai>Czesc</srai></template>
+</category>
+<category>
+<pattern>Elo</pattern>
+<template><srai>Czesc</srai></template>
+</category>
+
+
+<category>
+<pattern>czesc</pattern>
+<template>hej jak masz na imie</template>
+</category>
+<category>
+<pattern>*</pattern>
+<that>hej jak masz na imie</that>
+<template>
+Czesc <set name="imie"><star/></set>
+</template>
+</category>
+<category>
+<pattern>jak mam na imie</pattern>
+<template>
+<get name="imie"><star/></get>
+</template>
+</category>
+
+
+<category>
+<pattern>czym sa sterydy</pattern>
+<template>srodkami niedozwolonymi</template>
+</category>
+<category>
+<pattern>co sadzisz na temat sterydow</pattern>
+<template>sa to srodki niedozwolonymi ktore niszcza zdrowie</template>
+</category>
+<category>
+<pattern>Czy wiesz czym sa sterydy</pattern>
+<template><srai>czym sa sterydy<star/></srai></template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>sa to srodki niedozwolonymi ktore niszcza zdrowie</that>
+<template>tak Sterydy lub steroidy to potoczna nazwa grupy lekow stworzonych na wzor kortykosteroidow hormonow wystepujacych naturalnie w organizmie czlowieka 
+Sterydy sa stosowane w leczeniu szeregu chorob jednak ze wzgledu na mozliwe skutki uboczne musza byc dawkowane rozsadnie i pod scisla kontrola specjalisty Sterydy anaboliczne bywaja natomiast stosowane 
+jako doping w sporcie majacy wspomoc spalenie tkanki tluszczowej zbudowanie masy miesniowej oraz zwiekszenie sily Ich przyjmowanie wiaze sie z ryzykiem 
+powiklan zdrowotnych oraz zmian w zachowaniu, nie jest to chyba zbyt warte prawda</template>
+</category>
+<category>
+    <pattern>prawda *</pattern>
+    <that>tak Sterydy lub steroidy to potoczna nazwa grupy lekow stworzonych na wzor kortykosteroidow hormonow wystepujacych naturalnie w organizmie czlowieka 
+Sterydy sa stosowane w leczeniu szeregu chorob jednak ze wzgledu na mozliwe skutki uboczne musza byc dawkowane rozsadnie i pod scisla kontrola specjalisty Sterydy anaboliczne bywaja natomiast stosowane 
+jako doping w sporcie majacy wspomoc spalenie tkanki tluszczowej zbudowanie masy miesniowej oraz zwiekszenie sily Ich przyjmowanie wiaze sie z ryzykiem 
+powiklan zdrowotnych oraz zmian w zachowaniu, nie jest to chyba zbyt warte prawda</that>
+<template>doskonale ze sie ze mna zgadzasz. tak trzymaj</template>
+</category>
+<category>
+    <pattern>nie *</pattern>
+    <that>tak Sterydy lub steroidy to potoczna nazwa grupy lekow stworzonych na wzor kortykosteroidow hormonow wystepujacych naturalnie w organizmie czlowieka 
+Sterydy sa stosowane w leczeniu szeregu chorob jednak ze wzgledu na mozliwe skutki uboczne musza byc dawkowane rozsadnie i pod scisla kontrola specjalisty Sterydy anaboliczne bywaja natomiast stosowane 
+jako doping w sporcie majacy wspomoc spalenie tkanki tluszczowej zbudowanie masy miesniowej oraz zwiekszenie sily Ich przyjmowanie wiaze sie z ryzykiem 
+powiklan zdrowotnych oraz zmian w zachowaniu, nie jest to chyba zbyt warte prawda</that>
+<template>skoro tak to chyba nie sklonie cie do zmiany nastawienia do sterydow</template>
+</category>
+
+
+
+<category>
+<pattern>Arnold Schwarzenegger jest koksem</pattern>
+<template>tak</template>
+</category>
+<category>
+<pattern>Suplementy sa zle</pattern>
+<template>nie</template>
+</category>
+<category>
+<pattern>Czy *</pattern>
+<template>Sadze, ze <srai><star/></srai></template>
+</category>
+
+<category>
+<pattern>warto chodzic na silownie</pattern>
+<template>tak powodow dla ktorych warto chodzic na silownie jest bardzo duzo jesli chcesz moge ci o nich opowiedziec napisz do mnie slowo powody ale uprzedzam troche tego jest</template>
+</category>
+<category>
+<pattern>silownia niszczy kregoslup</pattern>
+<template>nie, jesli wykonuje sie cwiczenia poprawnie i z glowa to nie ma obaw ze nasz kregoslup ucierpi</template>
+</category>
+<category>
+<pattern>Czy *</pattern>
+<template>Sadze ze <srai><star/></srai></template>
+</category>
+
+<category>
+    <pattern>powody</pattern>
+        <that>Sadze ze tak powodow dla ktorych warto chodzic na silownie jest bardzo duzo jesli chcesz moge ci o nich opowiedziec napisz do mnie slowo powody ale uprzedzam troche tego jest</that>
+        <template>
+            POWÓD #1
+Zbudujesz masę mięśniową. Dla mężczyzn to oczywisty plus, nad którym nie trzeba się specjalnie wywodzić. Jeśli jednak jesteś kobietą, od razu odpowiadamy na Twoje pytanie – NIE, siłownia NIE sprawi, że będziesz „wyglądać jak facet”! Będziesz za to mogła cieszyć się mniejszą ilością tkanki tłuszczowej, większym poziomem energii, bardziej płaskim brzuchem, jędrniejszymi mięśniami i sportową sylwetką.
+
+ 
+
+POWÓD #2
+Spalisz tłuszcz. Jeśli w Twoim ciele jest więcej masy mięśniowej, organizm wykonuje więcej pracy, by spalić kalorie – nie tylko podczas wysiłku, ale także w momencie, w którym odpoczywasz. Regularny trening z dodatkowym obciążeniem pomoże Ci zbudować masę mięśniową i sprawi, że Twój stosunek poziomu tkanki mięśniowej do tłuszczowej będzie działał na Twoją korzyść.
+
+ 
+
+POWÓD #3
+Wzmocnisz kości. Brak aktywności jest jednym z powodów osłabienia kości. Żeby utrzymać je w odpowiednim stanie, konieczny jest po prostu ruch. Trenując na siłowni nie tylko się ruszasz, ale poddajesz swoje ciało (w tym kości) dodatkowemu obciążeniu sprawiając, że kości przyzwyczajają się do większych obciążeń. Możesz więc traktować siłownię jako jeden z elementów chroniących Cię przed złamaniami w sytuacjach nieszczęśliwych wypadków (np. upadek, poślizgnięcie się, itp.).
+
+ 
+
+POWÓD #4
+Zwalczysz stres. Wysiłek fizyczny uwalnia w naszym organizmie endorfiny – popularnie zwane hormonem szczęścia. Endorfiny wytwarzane są nie tylko w trakcie lub po bieganiu, ale również podczas treningu siłowego. Dla wielu osób trening z dodatkowym obciążeniem daje jeszcze większą satysfakcję i umożliwia rozładowanie negatywnych emocji. To także zupełne „odwrócenie głowy” od problemów dnia codziennego. Satysfakcja z dobrze wykonanego treningu pozwoli Ci z kolei na bardziej pozytywne podejście do problemów lub kolejnych zadań, których lista zdaje się często nie mieć końca.
+
+ 
+
+POWÓD #5
+Poprawisz jakość snu. Nie jest tajemnicą, że solidny trening przynosi ze sobą zmęczenie. Zmęczenie to sygnał dla organizmu, że konieczne jest jego zregenerowanie a sen to jeden z najlepszych na to sposobów. Trening na siłowni nie ogranicza się jednak wyłącznie do zmęczenia. Trenując z ciężarami podnosisz także poziom dobrych hormonów i kontrolujesz pracę nadnerczy, pomagających radzić sobie ze stresem – jednym z czynników, którego brak warunkuje dobry sen.
+
+ 
+
+POWÓD #6
+Poprawisz poziom dobrego i obniżysz poziom złego cholesterolu. Trening siłowy pozytywnie wpływa na ciśnienie krwi i wspiera pracę serca. Mówiąc prosto – do zbudowania mięśni, potrzebujesz tlenu. Podnosząc ciężary, Twoje ciało przyzwyczaja się do bardziej efektywnego transportu tlenu sprawiając, że Twoje serce staje się silniejsze a poziom złego cholesterolu zmniejsza się. Zamiast chodzić do lekarza – wybierz się więc na siłownię.
+
+ 
+
+POWÓD #7
+Zarysujesz mięśnie. Wspominaliśmy już o tym, że więcej mięśni oznacza mniej tłuszczu. Z mniejszą ilością tkanki tłuszczowej, odsłonisz swoje mięśnie i sprawisz, że Twoje ciało będzie wyglądać zdrowiej.</template>
+    
+</category>
+
+<category>
+<pattern>Uwazam ze *</pattern>
+<template>Dlaczego tak myslisz</template>
+</category>
+<category>
+<pattern>*</pattern>
+<that>Dlaczego tak myslisz</that>
+<template>
+Nie sadze, zeby <set name="to"><star/></set> bylo wystarczajacym wyjasnieniem. Czy naprawde uwazasz, ze '<get name="to"/>' wystarczy ?
+<think><set name="topic">pytanie</set></think>
+</template>
+</category>
+
+
+
+<topic name="pytanie">
+<category>
+<pattern>*</pattern>
+<template>
+<think><set name="var"><star /></set></think>
+<condition>
+<li name="var" value="tak">
+Okej, mysle ze dalsza dyskusja nie ma sensu, wez lepiej napisz daj temat 
+<think><set name="topic">*</set></think>
+</li>
+<li name="var" value="nie">
+No to rozbuduj wypowiedz albo napisz daj temat
+<think><set name="topic">*</set></think>
+</li>
+</condition>
+</template>
+</category>
+</topic>
+
+
+
+
+<category>
+<pattern>Daj temat</pattern>
+<template>
+    <random>
+        <li>Okej Skoro zostalem zaprogramowany aby być specjalista w dziedzinie silowni to porozmawiajmy o niej, 
+Na poczatek zadam podstawowe pytanie, Chodzisz na silownie</li>
+<li>jak chcesz poznac cwiczenia na silowni wpisz silownia</li>
+<li>jak chcesz poznac cwiczenia kalisteniczne wpisz kalistenika</li>
+<li>jak chcesz poznac cwiczenia crossfitowe wpisz crossfit</li>
+    </random></template>
+</category>
+
+<category>
+<pattern>daj inny temat</pattern>
+<template>
+    <random>
+        <li>Okej Skoro zostalem zaprogramowany aby być specjalista w dziedzinie silowni to porozmawiajmy o niej, 
+Na poczatek zadam podstawowe pytanie, Chodzisz na silownie</li>
+<li>jak chcesz poznac cwiczenia na silowni wpisz silownia</li>
+<li>jak chcesz poznac cwiczenia kalisteniczne wpisz kalistenika</li>
+<li>jak chcesz poznac cwiczenia crossfitowe wpisz crossfit</li>
+    </random></template>
+</category>
+
+
+<category>
+<pattern>tak</pattern>
+<that>Okej Skoro zostalem zaprogramowany aby być specjalista w dziedzinie silowni to porozmawiajmy o niej, 
+Na poczatek zadam podstawowe pytanie, Chodzisz na silownie</that>
+<template><think><set name="topic">silownia</set></think>Bardzo dobrze, laczy nas wspolna pasja, napisz "zadaj pytanie" a pogawedzimy troche, jesli potrzebujesz policzyc swoje zapotrzebowanie kaloryczne lub bmi to smialo pisz</template>
+</category>
+<category>
+<pattern>nie</pattern>
+<that>Okej Skoro zostalem zaprogramowany aby być specjalista w dziedzinie silowni to porozmawiajmy o niej, 
+Na poczatek zadam podstawowe pytanie, Chodzisz na silownie</that>
+<template>Kurcze, to nie porozmawiamy za bardzo </template>
+</category>
+<category>
+<pattern>tak *</pattern>
+<that>Okej Skoro zostalem zaprogramowany aby być specjalista w dziedzinie silowni to porozmawiajmy o niej, 
+Na poczatek zadam podstawowe pytanie, Chodzisz na silownie</that>
+<template><think><set name="topic">silownia</set></think>Bardzo dobrze, laczy nas wspolna pasja, napisz "zadaj pytanie" a pogawedzimy troche, jesli potrzebujesz policzyc swoje zapotrzebowanie kaloryczne lub bmi to smialo pisz</template>
+</category>
+<category>
+<pattern>nie *</pattern>
+<that>Okej Skoro zostalem zaprogramowany aby być specjalista w dziedzinie silowni to porozmawiajmy o niej, 
+Na poczatek zadam podstawowe pytanie, Chodzisz na silownie</that>
+<template>Kurcze, to nie porozmawiamy za bardzo </template>
+</category>
+<category>
+<pattern>* tak</pattern>
+<that>Okej Skoro zostalem zaprogramowany aby być specjalista w dziedzinie silowni to porozmawiajmy o niej, 
+Na poczatek zadam podstawowe pytanie, Chodzisz na silownie</that>
+<template><think><set name="topic">silownia</set></think>Bardzo dobrze, laczy nas wspolna pasja, napisz "zadaj pytanie" a pogawedzimy troche, jesli potrzebujesz policzyc swoje zapotrzebowanie kaloryczne lub bmi to smialo pisz</template>
+</category>
+<category>
+<pattern>* nie</pattern>
+<that>Okej Skoro zostalem zaprogramowany aby być specjalista w dziedzinie silowni to porozmawiajmy o niej, 
+Na poczatek zadam podstawowe pytanie, Chodzisz na silownie</that>
+<template>Kurcze, to nie porozmawiamy za bardzo </template>
+</category>
+
+<category>
+        <pattern>* zapotrzebowanie</pattern>
+        <template>
+            <link>
+                <text>Kalkulator zapotrzebowania kalorycznego (kliknij mnie)</text>
+                <url>https://sklep.sport-max.pl/Kalkulator-zapotrzebowania-kalorycznego-clinks-pol-750.html</url>
+            </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>zapotrzebowanie *</pattern>
+        <template>
+            <link>
+                 <text>Kalkulator zapotrzebowania kalorycznego (kliknij mnie)</text>
+                <url>https://sklep.sport-max.pl/Kalkulator-zapotrzebowania-kalorycznego-clinks-pol-750.html</url>
+            </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>zapotrzebowanie</pattern>
+        <template>
+            <link>
+                 <text>Kalkulator zapotrzebowania kalorycznego (kliknij mnie)</text>
+                <url>https://sklep.sport-max.pl/Kalkulator-zapotrzebowania-kalorycznego-clinks-pol-750.html</url>
+            </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>bmi</pattern>
+        <template>
+            <link>
+                 <text>Kalkulator bmi (kliknij mnie)</text>
+                <url>https://bmi-online.pl/</url>
+            </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>bmi *</pattern>
+        <template>
+            <link>
+                 <text>Kalkulator bmi (kliknij mnie)</text>
+                <url>https://bmi-online.pl/</url>
+            </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>* bmi</pattern>
+        <template>
+            <link>
+                <text>Kalkulator bmi (kliknij mnie)</text>
+                <url>https://bmi-online.pl/</url>
+            </link>
+        </template>
+    </category>
+
+
+<topic name="silownia">
+<category>
+<pattern>zadaj pytanie</pattern>
+<template>
+<random>
+<li>Jaki masz max na wyciskaniu na płaskiej</li>
+<li>Jaki masz max w przysiadzie ze sztanga</li>
+<li>Jaki masz max w martwym ciagu</li>
+<li>A moze chesz uslyszec ciekawostki na temat silowni</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>tak *</pattern>
+<that>A moze chesz uslyszec ciekawostki na temat silowni</that>
+<template>1. Ludzkie ciało ma ponad 600 mięsni, które zawierają ponad 6 mld włókien mięśniowych. Każde włókno jest tak silne, że może podtrzymać ciężar przewyższający je wagą 1000 razy.
+2. Ilość komórek tłuszczowych w twoim ciele określona zostaje przy urodzeniu. Wzrost ilości tłuszczu nie zwiększa więc ilości komórek tłuszczowych, ale ich rozmiary.
+3. Prowadzący siedzący tryb życia mają dwa razy większe szanse na nabawienie się choroby serca, niż ludzie bardziej aktywni.
+4. Ponieważ kobiecy organizm ma mniej testosteronu, trening siłowy nie spowoduje zazwyczaj u kobiet tak napakowanych mięśni, jakie spotkać można u mężczyzn.
+5. Podczas treningu twoje ciało traci niezbędną wodę, której ilość równa się 2 do 3 procent całkowitej masy ciała na godzinę. Straty te trzeba na bieżąco uzupełniać. Napoje węglowodanowe, ice tea, kawa i inne słodzone napoje odwadniają jeszcze bardziej.
+6.Ćwiczenie późnym popołudniem i wieczorem, kiedy temperatura ciała jest najwyższa, podwyższa ją jeszcze bardziej. Powoduje to, że przed snem i w nocy spada ona do niższego niż zwykle poziomu, co pozwala na mocniejszy sen.</template>
+</category>
+
+<category>
+<pattern>chce</pattern>
+<that>A moze chesz uslyszec ciekawostki na temat silowni</that>
+<template>1. Ludzkie ciało ma ponad 600 mięsni, które zawierają ponad 6 mld włókien mięśniowych. Każde włókno jest tak silne, że może podtrzymać ciężar przewyższający je wagą 1000 razy.
+2. Ilość komórek tłuszczowych w twoim ciele określona zostaje przy urodzeniu. Wzrost ilości tłuszczu nie zwiększa więc ilości komórek tłuszczowych, ale ich rozmiary.
+3. Prowadzący siedzący tryb życia mają dwa razy większe szanse na nabawienie się choroby serca, niż ludzie bardziej aktywni.
+4. Ponieważ kobiecy organizm ma mniej testosteronu, trening siłowy nie spowoduje zazwyczaj u kobiet tak napakowanych mięśni, jakie spotkać można u mężczyzn.
+5. Podczas treningu twoje ciało traci niezbędną wodę, której ilość równa się 2 do 3 procent całkowitej masy ciała na godzinę. Straty te trzeba na bieżąco uzupełniać. Napoje węglowodanowe, ice tea, kawa i inne słodzone napoje odwadniają jeszcze bardziej.
+6.Ćwiczenie późnym popołudniem i wieczorem, kiedy temperatura ciała jest najwyższa, podwyższa ją jeszcze bardziej. Powoduje to, że przed snem i w nocy spada ona do niższego niż zwykle poziomu, co pozwala na mocniejszy sen.</template>
+</category>
+
+
+<category>
+<pattern>*</pattern>
+<that>Jaki masz max na wyciskaniu na płaskiej</that>
+<template>okej niezly wynik</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>Jaki masz max w przysiadzie ze sztanga</that>
+<template>okej niezly wynik</template>
+</category>
+
+
+<category>
+<pattern>*</pattern>
+<that>Jaki masz max w martwym ciagu</that>
+<template>okej niezly wynik</template>
+</category>
+<category>
+    
+<pattern>dzieki</pattern>
+<template>nie ma sprawy, jak chcesz dalej rozmawiac o twoich maxach napisz zadaj pytanie w przeciwnym razie napisz tak </template>
+</category>
+
+<category>
+    
+<pattern>dzie *</pattern>
+<template>nie ma sprawy, jak chcesz dalej rozmawiac o twoich maxach napisz zadaj pytanie w przeciwnym razie napisz tak </template>
+</category>
+
+<category>
+<pattern>tak</pattern>
+<that>nie ma sprawy, jak chcesz dalej rozmawiac o twoich maxach napisz zadaj pytanie w przeciwnym razie napisz tak </that>
+<template><think><set name="topic">*</set></think>Dzieki za pochwalenie sie maxami, napisz daj temat jesli chesz kontynuowac nasza pogawendke</template>
+</category>
+
+
+<category>
+<pattern>* tak</pattern>
+<that>nie ma sprawy, jak chcesz dalej rozmawiac o twoich maxach napisz zadaj pytanie w przeciwnym razie napisz tak </that>
+<template><think><set name="topic">*</set></think>Dzieki za pochwalenie sie maxami, napisz daj temat jesli chesz kontynuowac nasza pogawendke</template>
+</category>
+
+<category>
+<pattern>tak *</pattern>
+<that>nie ma sprawy, jak chcesz dalej rozmawiac o twoich maxach napisz zadaj pytanie w przeciwnym razie napisz tak </that>
+<template><think><set name="topic">*</set></think>Dzieki za pochwalenie sie maxami, napisz daj temat jesli chesz kontynuowac nasza pogawendke</template>daj 
+</category>
+
+
+<category>
+<pattern>Nie mam ochoty rozmawiac</pattern>
+<template><think><set name="topic">*</set></think>W porzadku, nie rozmawiajmy o tym</template>
+</category>
+
+<category>
+<pattern>Nie chce mi sie gadac</pattern>
+<template><think><set name="topic">*</set></think>W porzadku, nie rozmawiajmy o tym</template>
+</category>
+
+<category>
+<pattern>Nie chce *</pattern>
+<template><think><set name="topic">*</set></think>W porzadku, nie rozmawiajmy o tym</template>
+</category>
+
+</topic>
+
+
+<category>
+<pattern>silownia</pattern>
+<that>jak chcesz poznac cwiczenia na silowni wpisz silownia</that>
+<template>
+    <random>
+        <li>Wyciskanie sztangi na lawce plaskiej, chcesz sie dowiedziec wiecej, Napisz chce</li>
+        <li>Wyciskanie sztangi nad glowa, chcesz sie dowiedziec wiecej, Napisz chce</li>
+        <li>Przysiad ze sztanga, chcesz sie dowiedziec wiecej, Napisz chce</li>
+        <li>Martwy ciag, chcesz sie dowiedziec wiecej, Napisz chce</li>
+    </random>
+</template>
+</category>
+
+<category>
+<pattern>* inny</pattern>
+<that>jak chcesz poznac cwiczenia na silowni wpisz silownia</that>
+<template>
+    <random>
+        <li>Wyciskanie sztangi na lawce plaskiej, chcesz sie dowiedziec wiecej, Napisz chce</li>
+        <li>Wyciskanie sztangi nad glowa, chcesz sie dowiedziec wiecej, Napisz chce</li>
+        <li>Przysiad ze sztanga, chcesz sie dowiedziec wiecej, Napisz chce</li>
+        <li>Martwy ciag, chcesz sie dowiedziec wiecej, Napisz chce</li>
+    </random>
+</template>
+</category>
+
+<category>
+<pattern>kalistenika</pattern>
+<that>jak chcesz poznac cwiczenia kalisteniczne wpisz kalistenika</that>
+<template>
+    <random>
+        <li>Podciaganie na drazku, chcesz sie dowiedziec wiecej, Napisz chce</li>
+        <li>Pompki na poreczach, chcesz sie dowiedziec wiecej, Napisz chce</li>
+        <li>unoszenie nóg w zwisie na drążku, chcesz sie dowiedziec wiecej, Napisz chce</li>
+        <li>Deska, chcesz sie dowiedziec wiecej, Napisz chce</li>
+    </random>
+</template>
+</category>
+
+<category>
+<pattern>crossfit</pattern>
+<that>jak chcesz poznac cwiczenia crossfitowe wpisz crossfit</that>
+<template>
+    <random>
+        <li>Burpees, chcesz sie dowiedziec wiecej, Napisz chce</li>
+        <li>Lunges, wykroki, chcesz sie dowiedziec wiecej, Napisz chce</li>
+        <li>Mountain climbers, chcesz sie dowiedziec wiecej, Napisz chce</li>
+        <li>Russian Twist, chcesz sie dowiedziec wiecej, Napisz chce</li>
+    </random>
+</template>
+</category>
+
+
+
+
+
+<category>
+<pattern>chce</pattern>
+<that>Wyciskanie sztangi na lawce plaskiej, chcesz sie dowiedziec wiecej, Napisz chce</that>
+<template>Wyciskanie sztangi leżąc to ćwiczenie, które prawdopodobnie zrobi każdy facet już przy pierwszej wizycie na siłowni. Ćwiczenie gral zarówno dla kulturystów jak i trenujących trójbój siłowy i bądź pewny, że zostaniesz zapytany o wynik właśnie na ławce, przez każdego amatora kulturystyki. Ale jak robić je poprawnie? O tym w tym artykuly.
+
+Wyciskanie sztangi leżąc to przede wszystkim ćwiczenie wielostawowe, które angażuje w głównej mierze mięsień piersiowy większy, ale też mięsień piersiowy mniejszy, mięsień zębaty przedni, mięśnie trójgłowe ramienia i przedni akton mięśni naramiennych. Do tego dochodzą mięsnie stabilizujące – mięśnie brzucha, najszerszy grzbietu czy prostownik grzbietu.
+
+Przez to, że jest to ćwiczenie wielostawowe, bardzo ważne jest ułożenie całego ciała w odpowiedni sposób i to dosłownie, od stóp do głowy. Podczas wyciskania leżąc, będziemy mieć 4 punkty podparcie – stopy, pośladki, łopatki, tył głowy. Przez cały zakres ruchu żaden z tych elementów nie powinien się oderwać.
+
+Przejdźmy więc do ustawienia, zaczynając od góry ciała. 1. Kładziemy się na ławce mniej więcej na takiej wysokości, żeby sztanga była równo nad naszymi oczami/nosem. 
+
+2. Następnie chwytamy sztangę trochę szerzej niż szerokość barków. Łapiemy ją pełnym chwytem, czyli kciuk nachodzi na palce. Nadgarstek powinien być ustawiony prostopadle do sztangi, w stronę sufitu i powinien być przedłużeniem przedramienia 3. Kolejnym ważnym elementem poprawnej techniki jest depresja oraz retrakcja łopatek, który ustabilizuje naszą pozycje i zabezpieczy nasz staw barkowy, a do tego stworzy tzw. „mostek” 4. Nogi będą zgięte w kolanach pod kątem około 90 stopni, stopy całe leżą na ziemi blisko ławki, równolegle do siebie lub z lekką rotacją zewnętrzną.
+
+Pośladki przylegają do ławki, ale najważniejsze do tego jest poprawne ustawienie stóp Wyciągamy sztangę ruchem ściągającym, a nie wypychającym Upewnij się, że Twoje łopatki są ściągnięte i pozycja jest utrzymana, jeżeli nie, to możesz ją poprawić.
+
+Następnie opuszczamy sztangę, przyciągając ją do dolnej części klatki piersiowej/mostka, tak jakbyśmy robili odwrotne wiosłowanie sztangą. Łokcie powinniśmy prowadzić pod kątem ok. 40-70 stopni w stosunku do ciała. Po opuszczeniu sztangi, przedramię powinno być prostopadłe do ziemi bądź zwrócone w kierunku stojaków.
+
+Następnie wypychamy sztangę w kierunku stojaków. Jak widać z boku – ruch nie jest po linii prostej, tylko idzie po łuku. Po skończonej serii odkładamy sztangę na stojaki.
+
+Metody oddychania podczas wyciskania są dwie:
+
+1. Standardowa – polecana dla większości amatorów, czyli łapanie wdechu w fazie ekscentrycznej, czyli podczas opuszczania, a wydychanie podczas fazy ekscentrycznej, czyli podczas wyciskania.
+
+2. Manewr Valsalvy, który polega po krótce próba wykonania wydechu przy „zamkniętej krtani”, co powoduje usztywnienie korpusu, powstanie tłoczni brzusznej, a to z kolei powoduje wygenerowanie większej siły.
+</template>
+
+</category>
+
+
+<category>
+<pattern>chce</pattern>
+<that>Wyciskanie sztangi nad glowa, chcesz sie dowiedziec wiecej, Napisz chce</that>
+<template>Pozycja wyjściowa
+
+1) Złap sztangę nachwytem, nieco szerzej niż na szerokość barków.
+2) Stopy w lekkim rozkroku. Plecy proste, brzuch napięty.
+3) Sztangę utrzymuj na wysokości obojczyków.
+
+Ruch
+
+1) Utrzymując prawidłową pozycję wyjściową, wykonaj wdech i rozpocznij wyciskanie ciężaru w górę. Łokcie prowadź przodem, przedramiona skierowane w górę.
+2) Nie blokuj rąk w stawach łokciowych – nie dopuszczaj do ich przeprostu.
+3) Następnie opuść sztangę do linii obojczyków, wykonując wydech.
+4) Wykonaj wyznaczoną liczbę powtórzeń.
+
+Wskazówki
+
+1) Utrzymaj stałe napięcie ćwiczonych mięśni.
+2) Ustabilizuj sylwetkę, napinając mięśnie brzucha i pośladków.
+3) Nie wybijaj ciężaru z nóg.
+4) Bądź skoncentrowany.</template>
+</category>
+
+
+<category>
+    <pattern>chce</pattern>
+        <that>Przysiad ze sztanga, chcesz sie dowiedziec wiecej, Napisz chce</that>
+        <template>Technika przysiadów powinna być znana każdemu, kto chce w odpowiedni sposób zadbać o rozwój swojej sylwetki. O czym należy pamiętać w przypadku tego ćwiczenia?
+
+Kręgosłup powinien znajdować się w naturalnej pozycji – należy kategorycznie pilnować się i nie garbić ( to doprowadza m.in. do uszkodzenia dysków międzykręgowych i wady postawy).
+Głowa i szyja powinny stanowić przedłużenie kręgosłupa – o tym większość zapomina. To pozwoli zapewnić sobie lepszą technikę ćwiczenia, ale i stabilizację i pewność ruchu.
+Brzuch powinien być spięty w trakcie ćwiczenia, a plecy – proste.
+Stopy powinny dotykać podłoża, niezależnie od rodzaju przysiadu.
+Rozpychanie kolan i skierowanie stóp na zewnątrz (maksymalnie 30 stopni) pozwala zadbać o swoje bezpieczeństwo w trakcie ćwiczenia. Warto jest więc zwrócić uwagę na rotację zewnętrzną.
+Ustawienie stóp powinno odpowiadać szerokości barków.
+By ustrzec się wadom postawy, należy zwrócić uwagę na ustawienie miednicy. Ta nie może być nienaturalnie odchylona cofnięta czy wychylona do przodu. Jej neutralna pozycja – podobnie jak kręgosłupa – to gwarant najlepszej techniki i efektywności ćwiczenia.
+Poprawny przysiad równa się z zejściem do co najmniej kąta prostego w stawie kolanowym.
+Faza ekscentryczna siadu powinna trwać dłużej, niż faza koncentryczna.</template>
+</category>
+
+<category>
+    <pattern>chce</pattern>
+    <that>Martwy ciag, chcesz sie dowiedziec wiecej, Napisz chce</that>
+    <template>1)Stań ze stopami rozstawionymi na szerokość bioder (inne możliwości rozstawu stóp przedstawimy nieco później w tym artykule) i sztangą 
+    położoną na wysokości Twojego śródstopia lub nawet bardzo blisko piszczeli. Wykonaj duży wdech i napnij brzuch.
+    2)Zegnij się w biodrach i delikatnie zegnij kolana trzymając ramiona wyprostowane. Złap sztangę w obie ręce podchwytem lub chwytem zmiennym (jedna ręka nachwyt, druga – podchwyt).
+    3)Utrzymując plecy w linii prostej, przywiedź do siebie łopatki, wypchnij klatkę piersiową do góry i obniż nieco biodra tak, by plecy znalazły się po lekkim skosie. Wzrok skieruj w podłogę, około 3m przed sobą.
+
+W tej pozycji powinieneś czuć napięty brzuch i plecy, rozciągnięte mięśnie dwugłowe uda. Twój chwyt powinien być mocny i solidny. Jeśli wszystko się zgadza – jesteś gotowy!
+4)Oderwij sztangę od podłogi w prostej linii trzymając ją jak najbliżej piszczeli. Użyj mięśni pośladków i dwugłowych uda, by wyprostować biodra. Kiedy sztanga minie linię Twoich kolan, zacznij przyciągać ją w kierunku bioder. 
+Na każdym etapie ruchu, Twoim celem jest trzymanie sztangi jak najbliżej ciała. W ten sposób będziesz w stanie wygenerować największą siłę. Prostując się napnij pośladki i zatrzymaj ruch w momencie, którym jesteś w pełni wyprostowany.
+5)Powoli zginaj się w biodrach trzymając sztangę jak najbliżej swojego ciała. Nie zginaj kolan do momentu, w którym sztanga nie znajdzie się poniżej ich poziomu. 
+Jeśli już sztanga będzie poniżej kolan, możesz je zgiąć odkładając ciężar na ziemię.
+6)Jeśli wykonujesz więcej niż jedno powtórzenie, masz 2 wybory – albo weźmiesz głęboki oddech i rozpoczniesz kolejne powtórzenie albo wrócisz do kroku #3. Krok #3 
+jest opcją preferowaną przez ludzi trenujących z maksymalnymi lub submaksymalnymi obciążeniami.</template>
+</category>
+
+<category>
+    <pattern>chce</pattern>
+    <that>Podciaganie na drazku, chcesz sie dowiedziec wiecej, Napisz chce</that>
+    <tempalte>Drążek powinniśmy chwytać na szerokość barków. Jest to optymalny rozstaw, dzięki któremu zmniejszymy ryzyko nadwyrężenia naszych nadgarstków oraz barków, co ma miejsce przy stosowaniu innych szerokości chwytu. W celu lepszej aktywacji mięśni przedramienia, lepiej stosować chwyt zamknięty.
+
+Najważniejszym elementem podczas ćwiczeń na drążku jest utrzymanie odpowiedniej pozycji ciała, zwanej „hollow body”. Aby właściwie przyjąć hollow body, należy maksymalnie wyprostować łokcie, gdyż powinniśmy pracować w pełnym zakresie ruchu. Nieprostowanie łokci zmniejsza zakres pracy naszych mięśni, hamując tym samym lepszy ich rozwój.
+
+Podczas podciągania na drążku musimy zadbać o właściwą stabilizację odcinka lędźwiowego naszego kręgosłupa, by zmniejszyć ryzyko jego przeciążenia. Aby to zrobić, należy wyprostować nogi lekko przed sobą oraz poprzez ruch podwinięcia miednicy napiąć brzuch. W przypadku trzymania nóg zgiętych z tyłu lub swobodnie zwisających puszczasz napięcie brzucha, przez co znacznie obciążasz dolną część kręgosłupa. W celu ułatwienia trzymania pozycji możesz dodatkowo ściągnąć swoje stopy, co usprawni utrzymanie całej kończyny dolnej w odpowiedniej pozycji.
+
+Po upewnieniu się, że prawidłowo przyjęliśmy pozycje początkową, możemy przejść do wykonania podciągania. Ruch zaczynać powinnyśmy od retrakcji i depresji łopatki. Poprzez mocne ściągnięcie łopatek w dół lepiej aktywujemy mięsień najszerszy grzbietu do pracy. Podczas wykonywania podciągania łokcie nie powinny rozchodzić się na bok, lecz być skierowane blisko ciała do przodu. W przeciwnym razie narażamy nasze barki na kontuzje.
+
+Wykonując ruch, nogi jeszcze mocniej skierują się do przodu. Jest to zupełnie naturalne ze względu na to, aby utrzymać odpowiednią dźwignię. Należy jedynie pamiętać, by nadmiernie nie unosić ich do góry.
+
+Ruch kontynuować powinniśmy aż do przekroczenia brodą linii drążka przy jednoczesnym zachowaniu naturalnej pozycji odcinka szyjnego. Dzięki temu przy wielokrotnym wykonywaniu podciągania nie będziemy mieli żadnej wady postawy, która może wystąpić przy wychylaniu głowy w tył. Drążek powinniśmy starać dociągać do mostka, a nie szyi, co sprawi, że lepiej zaangażujemy mięśnie całych pleców.
+
+Technika podciągania na drążku obejmuje również opuszczanie się. Schodząc w dół, należy robić to powoli i do pełnego wyprostu łokci, przez cały czas kontrolując pozycję swojego ciała. Nie należy opuszczać się bezwładnie, gdyż wtedy możemy naderwać sobie mięsień lub uszkodzić staw barkowy.</tempalte>
+</category>
+
+<category>
+    <pattern>chce</pattern>
+    <that>Pompki na poreczach, chcesz sie dowiedziec wiecej, Napisz chce</that>
+    <template>Przed tym ćwiczeniem koniecznie zrób solidną rozgrzewkę z naciskiem na obręcz barkową. Zapobiegnie to kontuzjom, które mogą się pojawić w przypadku nierozgrzanych mięśni i zastanych stawów.
+
+ 
+
+Pozycja wyjściowa:
+- stań między poręczami
+
+- połóż dłonie na poręczach, chwytem neutralnym, czyli cztery palce skierowane na zewnątrz a kciuk do wewnątrz
+
+- wyprostuj ręce w stawach łokciowych oraz ściągnij łopatki w dół tak by głowa nie chowała się między ramionami
+
+- ugnij kolana, plecy proste
+Ruch:
+- wolnym ruchem uginaj łokcie w stawach łokciowych
+
+- staraj się trzymać łokcie blisko ciała, nie pozwól im zbytnio uciekać na boki
+
+- gdy poczujesz napięcie w stawach barkowych i lekkie ciągnięcie w mięśniach klatki piersiowej wyprostuj z powrotem łokcie
+
+- podczas pierwszych prób wykonania tego ćwiczenia nie opuszczaj się zbyt nisko, by nie nabawić się kontuzji barków
+Nie zapomnij, że najważniejsza jest technika wykonywania ćwiczeń. Zwróć uwagę na najczęstsze błędy, które pojawiają się przy pompkach na poręczach i unikaj ich podczas treningu:
+niestabilna pozycja wyjściowa
+
+barki i plecy nie utrzymujące prawidłowej stabilizacji
+
+zbyt szybkie opuszczanie się w dół
+
+nierówne uginanie łokci
+
+ciało zaczynające falować</template>
+</category>
+
+<category>
+    <pattern>chce</pattern>
+    <that>unoszenie nóg w zwisie na drążku, chcesz sie dowiedziec wiecej, Napisz chce</that>
+    <template>Pozycja Wyjściowa
+
+Szerokość chwytu: Chwyć drążek na szerokość barków.
+Początkowe Ustawienie Ciała
+
+Głowa: Głowę ustaw w linii z resztą ciała. Patrz do przodu. W ćwiczeniach na mięśnie brzucha dużo osób nadmiernie zgina lub prostuje szyję, co w dłuższej perspektywie doprowadza do bólu w odcinku szyjnym kręgosłupa.  
+Ręce: Wyprostuj ręce. Celem jest utrzymywanie ich prosto przez cały ruch.
+Plecy: Ustaw plecy w neutralnej pozycji. Nie chcesz się garbić na początku ruchu, ale nie możesz też doprowadzać do przeprostu w lędźwiach, bo całkowicie stracisz napięcie w mięśniach brzucha.
+Brzuch: Zepnij brzuch ściskając go zamiast wypychać. Jeżeli zaczniesz z rozluźnionym brzuchem, to nie licz na pozytywne efekty tego ćwiczenia. W przeciwieństwie do innych ćwiczeń, nie nabieramy jednak do niego powietrza, bo wtedy uzyskamy efekt napuchniętego sześciopaka, podczas gdy zależy nam na wyszczupleniu talii. Dlatego ściskamy go tak jakbyśmy chcieli wepchnąć brzuch wewnątrz ciała.   
+Wykonanie
+
+Oddychanie: Wydychaj powietrze podczas unoszenia nóg. Weź głęboki wdech na górze i utrzymuj go podczas opuszczania nóg.
+Droga ciała: Ciało powinno poruszać się najbardziej pionowo jak to możliwe, bez kołysania. Kołysając się pracę przestają wykonywać mięśnie brzucha, a zaczynają wszystkie inne.  
+Pośladki: Zepnij pośladki zbliżając je do siebie na początku. W trakcie unoszenia nóg prowadź je tak aby były skierowane do przodu. Bez tego ruchu nie odbędzie się zgięcie kręgosłupa, czyli najważniejsza funkcja mięśni brzucha.   
+Nogi: Wyprostuj nogi. Napnij mięśnie czworogłowe uda. Utrzymuj proste nogi przez cały ruch unoszenia. W tej wersji ćwiczenia utrzymujemy nogi proste.
+Stopy: Kieruj stopy w dół na początku ruchu. Skieruj stopy w stronę drążka w końcowej fazie ruchu. Zatrzymaj się gdy stopy dotkną drążka. Tak uzyskasz maksymalne napięcie brzucha na początku i tak utrzymasz je podczas całego ruchu.
+Podsumowanie
+
+#1 Złap drążek na szerokość barków wyprostowanymi rękami
+
+#2 Ustaw głowę w linii z resztą ciała i ustaw plecy w neutralnej pozycji
+
+#3 Wyprostuj nogi, skieruj stopy w dół i zepnij brzuch ściskając go zamiast wypychać
+
+#4 Unoś wyprostowane nogi do góry, wydychając powietrze z jednoczesnym utrzymaniem napiętych mięśni brzucha, kierowaniem pośladków do przodu i unikaniem kołysania ciała
+
+#5 Zacznij opuszczać nogi gdy stopy dotkną drążka, pamiętając o utrzymywaniu wdechu i napiętych mięśni brzucha</template>
+</category>
+
+<category>
+    <pattern>chce</pattern>
+    <that>Deska, chcesz sie dowiedziec wiecej, Napisz chce</that>
+    <template>KROK #1 – NAPNIJ BRZUCH
+
+Do tego kroku będziesz potrzebować partnera. Przyjmij pozycję na czworaka z rękami umieszczonymi na podłodze, bezpośrednio pod barkami a kolanami – bezpośrednio pod biodrami. Głowę utrzymuj w pozycji neutralnej, tzn. wyobraź sobie jakbyś musiał utrzymać pod brodą piłkę tenisową. Poproś partnera o naciskanie dłońmi na Twoje barki i biodra a Ty napinaj brzuch na tyle mocno, by Twój tułów nie opadał w dół. Dokładnie to samo napięcie brzucha będzie potrzebne Ci w pozycji deski
+
+KROK #2 – AKTYWUJ POŚLADKI I PLECY
+
+Przyjmij pozycję deski, najpierw skupiając się na pośladkach. Żeby właściwie je aktywować, wyobraź sobie, że między pośladkami znajduje się 200zł banknot, który ktoś chce Ci zabrać. Nie pozwól na to. W celu aktywacji pleców, wyobraź sobie jakbyś chciał przyciągnąć oba łokcie do pępka.
+
+KROK #3 – ZAANGAŻUJ UDA
+
+Przyjmij pozycję deski umieszczając poduszkę, matę, rollera lub małą piłkę między kolanami. Stabilnie utrzymuj przedmiot tak, by ten zupełnie się nie ruszał. W ten sposób, do już zaangażowanego brzucha, pośladków i pleców, dołączysz również mięśnie ud.
+
+KROK #4 – ZMNIEJSZ CZAS, ZWIĘKSZ INTENSYWNOŚĆ
+
+W pozycji deski nie liczy się czas a intensywność ćwiczenia. Ta intensywność rośnie proporcjonalnie do lepszej techniki. Jeśli jesteś już po 3 powyższych krokach, pora w kroku czwartym skupić się na poprawnym napięciu całego ciała. Jeśli zrobisz to poprawnie, powinieneś mieć problem z utrzymaniem pozycji nawet przez 20 sekund.</template>
+</category>
+<category>
+    <pattern>chce</pattern>
+    <that>Burpees, chcesz sie dowiedziec wiecej, Napisz chce</that>
+    <template>Burpees – pozycja wyjściowa
+Pozycja startowa jest banalnie łatwa. Stań wyprostowany. Zwróć uwagę na to, czy masz za sobą sporo miejsca. Możesz ćwiczyć na macie (wtedy stań na początku maty) lub po prostu na podłodze.
+
+Burpess – ruch główny
+Zaczynamy od przysiadu. Z pozycji wyprostowanej, zrób przysiad. Pamiętaj, prawidłowy przysiad nie ma nic wspólnego z kucaniem. Stopy mają przylegać do podłogi. Następnie dotknij palcami podłoża. Połóż dłonie i dynamicznym skokiem wyciągnij obie nogi do tyłu. W ten sposób znajdziesz się w pozycji deski (plank). To kolejny element ćwiczenia. Chwilę zatrzymaj pozycję. Zwróć przy tym uwagę, aby ciało znajdowało się w idealnej linii prostej, głowa była przedłużeniem tułowia, a dłonie znajdowały się tuż pod barkami. Nie wypychaj i nie opuszczaj pośladków. Z tej pozycji zrób pompkę. Klasyczną, w której cały czas będziesz mieć proste plecy, napięte nogi, a łokcie skierowane do zewnątrz. Następnie znowu poprzez wyskok wróć do przysiadu. Dynamicznie wstań, głowę podnieś ostatnią. Zanim się wyprostujesz do końca, wyskocz w górę. Unieś ręce nad głową.
+
+Burpees – wskazówki
+Wszystkie elementy ćwiczenia wykonuj powoli. Nie śpiesz się. Zacznij od spokojnego tempa i ewentualnie przyspiesz. Częstym błędem jest narzucenie sobie szybkiego tempa już na początku, co zwykle skutkuje szybkim wyzbyciem się sił i kiepską jakością kolejnych powtórzeń ćwiczenia. Oddychaj i jeszcze raz oddychaj. Tylko spokojny, miarowy oddech pozwoli ci wejść we właściwy rytm i zrobić zaplanowaną liczbę powtórzeń. Dbaj o technikę. Liczy się jakość, nie ilość. Pamiętaj o wyprostowanej sylwetce, doklejonych stopach podczas przysiadu czy równomiernym opuszczaniu tułowia podczas robienia pompki.</template>
+</category>
+
+<category>
+    <pattern>chce</pattern>
+    <that>Lunges, wykroki, chcesz sie dowiedziec wiecej, Napisz chce</that>
+    <template>Pozycja wyjściowa
+
+1) Sylwetka wyprostowana, dłonie umiejscowione na biodrach. Stopy w minimalnym rozkroku.
+
+ 
+
+Ruch
+
+1) Z pozycji wyprostowanej wykonaj obszerny wykrok lewą nogą, następnie obniż biodra w dół, utrzymując plecy wyprostowane, ustawione prostopadle do podłoża.
+
+2) Obniż prawe kolano tak, aby niemalże dotknęło podłoża.
+
+3) Odbijając się mocno z pięty od podłoża, powróć do pozycji wyjściowej, unosząc tułów w górę oraz prostując nogi w kolanach.
+
+4) Wykonaj wykrok nogą przeciwną.
+
+5) Powtarzaj ćwiczenie zadaną liczbę powtórzeń.
+
+ 
+
+Wskazówki
+
+1) Postaraj się nie pochylać tułowia do przodu podczas wykroku.
+
+2) W nodze wykrocznej nie przenoś ciężaru ciała na przednią część stopy. Unikaj odrywania pięty od podłoża.
+
+3) Zwróć uwagę, czy kolano w nodze wykrocznej nie schodzi do środka podczas uginania. Jeśli tak, postaraj się ustawić palce stopy nieco na zewnątrz oraz forsować lekko kolano od środka.
+
+4) Skup się podczas wykonywania ruchu.
+
+5) Napinaj mocno mięśnie brzucha przy wracaniu do pozycji wyprostowanej.
+
+6) Ćwiczenie to można wykonywać, trzymając bumper w wyprostowanych ramionach nad głową, z kettlebell trzymanymi w dłoniach lub ze sztangą trzymaną za plecami bądź na klatce piersiowej.
+
+7) Dobieraj ciężar z głową.</template>
+</category>
+
+<category>
+    <pattern>chce</pattern>
+    <that>Mountain climbers, chcesz sie dowiedziec wiecej, Napisz chce</that>
+    <template>Mountain climbers – wersja klasyczna
+Mountain climbers – wersja klasyczna – pozycja wyjściowa
+Połóż się na brzuchu. Wyciągnij całe ciało, napnij i powoli rozluźnij mięśnie. To tylko przygotowanie wstępne organizmu na intensywny wysiłek, którego zaraz doświadczy. Podeprzyj się na przedramionach. 
+Powinieneś znaleźć się w podporze przodem, inaczej nazywamy deską. Całe dłonie leżą na podłodze, ułożone idealnie pod barkami. Napnij pośladki, brzuch i wciśnij pępek do kręgosłupa.
+
+Mountain climbers – wersja klasyczna – ruch główny
+Z pozycji deski przenieś jedną nogą do przodu. Ustaw ją między ramionami. Obie nogi stoją na ziemi. Stopę przedniej nogi wciśnij w podłoże. 
+Tylna jest oparta wyłącznie na palcach. Zrób energiczny przeskok i zmień nogi. Wykonuj mountain climbers przez minutę. W równym, dość szybkim tempie. Połóż się na brzuchu, rozluźnij mięśnie. Odpoczywaj w ten sposób przed 20 sekund i powtórz ćwiczenie od nowa.</template>
+</category>
+
+
+<category>
+    <pattern>chce</pattern>
+    <that>Russian Twist, chcesz sie dowiedziec wiecej, Napisz chce</that>
+    <template>W przypadku rosyjskiego akcentu zacznij od obciążenia, które możesz kontrolować, wykonując 2-3 zestawy po 5-10 powtórzeń z każdej strony. Wybierz ciężar, który pozwoli Ci utrzymać dobrą technikę we wszystkich seriach i powtórzeniach.
+
+Usiądź na podłodze ze złączonymi nogami i ugiętymi kolanami. Trzymaj stopy na podłodze lub lekko nad ziemią. Powinnaś siedzieć na kościach kulszowych miednicy.
+Utrzymując wysoką postawę, pochyl się do tyłu, aż twoje ciało znajdzie się pod kątem 45 stopni nad ziemią. Twoje biodra i kolana powinny być zgięte pod kątem 90 stopni.
+Zaangażuj swój rdzeń. Twój podbródek powinien pozostać schowany podczas ruchu, tak jakbyś trzymał pod brodą jajko.
+Trzymaj piłkę lekarską, hantle, obciążniki lub ręce przed sobą; twoje ramiona mogą być zgięte lub proste.
+W powolny i kontrolowany sposób obracaj górną część ciała w lewo, a potem w prawo. Kiedy obracasz się tam iz powrotem, utrzymuj dolną część ciała nieruchomo.
+Rosyjski zwrot to świetny sposób na budowanie siły mięśni skośnych i innych mięśni brzucha – pod warunkiem, że zwracasz szczególną uwagę na odpowiednią formę. 
+Nieprawidłowo wykonana rosyjska pozycja skrętu może niepotrzebnie obciążać kręgosłup lędźwiowy. Jeśli odczuwasz ból pleców podczas rosyjskiego zwrotu, skonsultuj się z lekarzem lub certyfikowanym trenerem osobistym.</template>
+</category>
+</aiml>
